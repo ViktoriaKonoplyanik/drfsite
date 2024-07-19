@@ -1,7 +1,7 @@
 
 from rest_framework import generics
 from .models import Women
-from .permissions import IsAdminOrReadOnly,
+from .permissions import IsAdminOrReadOnly
 from .serializers import WomenSerializer
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 
